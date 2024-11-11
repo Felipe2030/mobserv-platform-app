@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { authMiddleware } from "./prisma/middlewares/authMiddleware";
-import { logMiddleware } from "./prisma/middlewares/logMiddleware";
+import { authMiddleware } from "./middlewares/authMiddleware";
+import { logMiddleware } from "./middlewares/logMiddleware";
 
 export const config = {
     matcher: "/api/:path*"
